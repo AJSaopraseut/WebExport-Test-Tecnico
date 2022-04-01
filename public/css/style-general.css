@@ -1,0 +1,220 @@
+body {
+    background: #f7f7f7;
+    min-height: 100vh;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    margin: 0px auto;
+    background: #021334;
+    border-bottom: 1px solid #ccc;
+    border-top: 5px solid #55ace4;
+}
+
+#logo {
+    display: block;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+}
+
+#nav {
+    margin-right: 1%;
+    padding-top: 1.2%;
+    float: right;
+}
+
+.navegacion {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 18px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #55ace4;
+    color: #ffffff;
+}
+
+.btn-confirmar {
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 6px 18px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #a00101;
+  color: #ffffff;
+}
+
+.btn-verde {
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 6px 18px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #00830b;
+  color: #ffffff;
+}
+
+.btn-verde:hover {
+  background-color: #00bb10;
+}
+
+
+#footer {
+    background: #dadada;
+    width: 100%;
+    height: 70px;
+    margin-top: 20%;
+    
+}
+#footer p {
+
+    margin: 0%;
+    line-height: 65px;
+    
+}
+
+.contenedorCentral {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.tablaUsuarios {
+    border-collapse: collapse;
+    width: 80%;
+    
+  }
+  
+  .tablaUsuarios td, .tablaUsuarios th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tablaUsuarios tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tablaUsuarios tr:hover {background-color: #ddd;}
+  
+  .tablaUsuarios th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #55ace4;
+    color: white;
+  }
+
+  
+  .tablaRoles {
+    margin-top: 5%;
+    border-collapse: collapse;
+    width: 25%;
+  }
+  
+  .tablaRoles td, .tablaRoles th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tablaRoles tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tablaRoles tr:hover {background-color: #ddd;}
+  
+  .tablaRoles th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #55ace4;
+    color: white;
+  }
+
+  input[type=text], input[type=email], input[type=dni], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff0000;
+  }
+
+  .formModificar {
+    text-align: left;
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  .formCrear {
+    text-align: left;
+    width: 50%;
+    margin-top: 8%;
+  }
+  
+  .selectorParaCrear {
+    position: absolute;
+    width: 100%;
+    margin-top: 4%;
+  }
+
+  #formTitulo {
+
+    position: absolute;
+    margin-top: 2%;
+    width: 100%;
+    height: 5%;
+  }
+
+  .select {
+    text-align: left;
+    margin-right: 8%;
+    width: 100%;
+  }
+
+  #rolSelectLabel {
+    margin-right: 9.7%;
+  }
